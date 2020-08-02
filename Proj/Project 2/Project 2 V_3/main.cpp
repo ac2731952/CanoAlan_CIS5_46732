@@ -45,6 +45,7 @@ int main(int argc, char** argv) {
             vector<string> enemy;
             bool playWin;
             bool enemWin;
+            bool answer;
             unsigned short vC1,vC2, vCe1, vCe2;
             unsigned char nCards,nEcards, PlaySum, EnemSum; //enemy and player
             char option; 
@@ -276,8 +277,10 @@ bool checkWin(vector <string>player, int pHs, vector <string>enemy, int eHs){
         
            
   
+
+
     
-    PlaySum <= EnemSum?return true:return false;
+   bool answer =(PlaySum <= EnemSum? true: false);
     
    
      
